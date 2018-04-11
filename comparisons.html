@@ -23,6 +23,7 @@ crossorigin="anonymous"></script>
 <link rel="stylesheet" type="text/css" href="style.css">
 
 <!-- Bootstrap END ###########################################################################################-->
+	
 
 
   
@@ -32,10 +33,10 @@ crossorigin="anonymous"></script>
 
 
 
+
   <body style="background-color: lightgray">
   
   <!-- navigation START ###########################################################################################-->
-
   
   
     <nav class="navbar navbar-default">
@@ -88,76 +89,61 @@ crossorigin="anonymous"></script>
 
     <div class="container-fluid">
       <div class="row">
-  
-		
-		<!-- Summary START #########-->	
-		
-        <div class="col-md-6">
 
-            <div class="panel panel-default">
-                <div class="panel-body">
-                  <h2 >Conclusion: Weather Analysis</h2>
-				   <img class = "img-responsive" src="Images/latitude_temp.png" style="width:40%; float: left; margin: 5px;" alt="first image" >
-
-                  <p>By comparing Latitude and max temperature of 600 cities on Feb 22nd, it is clear that cities in southern atmosphere are much warmer. Northern atmosphere is much colder as expected. None of the southern atmosphere cities reach 100 degree F. This means its not that hot over there. Southern atmosphere cities are probably good destination for vacation, but we need more data is needed to make sure.
-				  <br>
-                    <br>
-					There are no pattern in cloudiness and data is scattered all over the place.
-                    There are some cities in Northern atmosphere which have comparatively high wind speed of 25, but no city reaches above 50 on February 22nd 2018.
-			
-					
-                   
-
-                  </p>
-                </div>
-              </div>
-
-        </div>
-		
-		<!-- Summary END #########-->	
-		
-	<!-- Visualizations START #########-->	
-		
-        <div class="col-md-5">
+        
+        <div class="col-md-10">
 
             <div class="panel panel-default">
                 <div class="panel-body">
                     
-                  <h2 >Visualizations</h2>
+                  <h2>Comparison: Latitude vs X</h2>
                   <hr>
-                
+                  <p>Click on any plot to get an in-depth analysis.</p>
                   <div class="row" style = "padding-bottom: 10px">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><a href="temperature.html"><img class = "img img-responsive" src="Images/latitude_temp.png" style="width:100% " alt=""></a></div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><a href="humidity.html"><img class = "img img-responsive" src="Images/latitude_humidity.png" style="width:100%" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+                        <h3>vs. Max Temperature</h3>
+                        <a href="temperature.html"><img class = "img img-responsive" src="Images/latitude_temp.png" style="width:100%" alt=""></a>
+					</div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+                        <h3>vs. Humidity</h3>
+                        <a href="humidity.html"><img class = "img img-responsive" src="Images/latitude_humidity.png" style="width:100%" alt=""></a>
+					</div>
                   </div>
                   <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><a href="cloud_cover.html"><img class = "img img-responsive" src="Images/latitude_clouds.png" style="width:100%" alt=""></a></div>
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><a href="wind_speed.html"><img class = "img img-responsive" src="Images/latitude_wind_speed.png" style="width:100%" alt=""></a></div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h3>vs. Cloudiness</h3>
+                        <a href="cloud_cover.html"><img class = "img img-responsive" src="Images/latitude_clouds.png" style="width:100%" alt=""></a>
+					</div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <h3>vs. Wind Speed</h3>
+                        <a href="wind_speed.html"><img class = "img img-responsive" src="Images/latitude_wind_speed.png" style="width:100%" alt=""></a>
+					</div>
                   </div>
               
               </div>
 
-			</div>
-	 </div>
-	<!-- Visualizations END #########-->	
-				
+        </div>
+      </div>
+     
 
-	  </div>
-	 
+    </div>
   </div>
    
-
    
    
-   <!-- page detail END ###########################################################################################-->
+     <!-- page detail END ###########################################################################################--> 
    
-
-     
     <footer>
             <p style = "text-align: center"><i class="glyphicon glyphicon-copyright-mark"> Copyright Coding Bootcamp 2017</i></p>
             
     </footer>
-	
+   
+
+
+
+        
+
+        
     
   </body>
 </html>
